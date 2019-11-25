@@ -1,0 +1,6 @@
+<div class="overlay"></div>
+<f:if condition="{content.VideoLink}">
+	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		<source src="{f:uri.typolink(parameter: content.VideoLink)}" type="video/mp4">
+	</video>
+</f:if>

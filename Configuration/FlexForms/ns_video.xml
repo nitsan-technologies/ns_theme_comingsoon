@@ -1,0 +1,38 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Fields</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <VideoLink>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:ns_theme_comingsoon/Resources/Private/Language/locallang_flex.xlf:Video.VideoLink
+                            </label>
+                            <config>
+                                <type>input</type>
+                                <renderType>inputLink</renderType>
+                                <size>40</size>
+                                <eval>trim</eval>
+                                <softref>typolink,typolink_tag,images,url</softref>
+                                <fieldControl>
+                                    <linkPopup>
+                                        <options>
+                                            <blindLinkOptions>page, mail</blindLinkOptions>
+                                            <!--<blindLinkFields>class,params,target,title</blindLinkFields>-->
+                                        </options>
+                                    </linkPopup>
+                                </fieldControl>
+                            </config>
+                        </TCEforms>
+                    </VideoLink>
+                </el>    
+                
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

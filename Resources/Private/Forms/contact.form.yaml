@@ -1,0 +1,53 @@
+
+renderingOptions:
+  submitButtonLabel: 'Notify Me!'
+type: Form
+identifier: contactform
+label: 'Contact Form'
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'comming-soon Theme'
+      recipientAddress: '{email-1}'
+      recipientName: Comming-soon
+      senderAddress: '{email-1}'
+      senderName: Comming-sson
+      replyToAddress: test.t3admn@gmail.com
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+    identifier: EmailToSender
+  -
+    options:
+      message: 'Thank you very much for connecting with us, Our executive will get back to you asap.'
+      contentElementUid: ''
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: form
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Email
+        identifier: email-1
+        label: 'Email address'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+            placeholder: 'Enter email...'
+          validationErrorMessages:
+            -
+              code: 1221559976
+              message: 'Please Enter Valid Email-ID'
+        validators:
+          -
+            identifier: EmailAddress
+          -
+            identifier: NotEmpty
