@@ -1,0 +1,40 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+
+	<!-- Render main content colpost=0 -->
+	<f:cObject typoscriptObjectPath="lib.content"/>
+	
+	<!-- Render Social-icons from constant -->
+	<f:render section="social-icons" />
+
+
+</f:section>
+
+<f:section name="social-icons">
+	<div class="social-icons">
+		<ul class="list-unstyled text-center mb-0">
+		    <f:if condition="{settings.ns_comming_soon.twitter-link}">
+		      	<li class="list-unstyled-item">
+		        	<f:link.external uri="{settings.ns_comming_soon.twitter-link}" >
+		          		<i class="fab fa-twitter"></i>
+		          	</f:link.external>
+		      	</li>
+		    </f:if>
+		    <f:if condition="{settings.ns_comming_soon.facebook-link}">
+			    <li class="list-unstyled-item">
+			        <f:link.external uri="{settings.ns_comming_soon.facebook-link}" >
+			          	<i class="fab fa-facebook-f"></i>
+			        </f:link.external>
+			    </li>
+		    </f:if>
+		    <f:if condition="{settings.ns_comming_soon.instagram-link}">
+			    <li class="list-unstyled-item">
+			        <f:link.external uri="{settings.ns_comming_soon.instagram-link}" >
+			          	<i class="fab fa-instagram"></i>
+			        </f:link.external>
+			    </li>
+		    </f:if>
+	    </ul>
+	</div>
+</f:section>
