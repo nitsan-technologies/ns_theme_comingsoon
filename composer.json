@@ -1,0 +1,37 @@
+{
+  "name": "nitsan/ns-theme-child",
+  "type": "typo3-cms-extension",
+  "description": "Maintenance mode TYPO3 template is carefully designed with attention to the details. Your visitors will love it. LIVE Demo: https://demo.t3terminal.com/?theme=t3t-coming-soon You can download PRO version with more-features & free-support at https://t3terminal.com/t3-coming-soon-maintenance-mode-typo3-template/",
+  "keywords": [
+    "TYPO3 CMS",
+    "bootstrap",
+    "responsive",
+    "frontend",
+    "theme"
+  ],
+  "homepage": "https://www.nitsan.in/",
+  "authors": [
+    {
+        "name": "NITSAN Technologies Pvt Ltd",
+        "email": "info@nitsan.in",
+        "role": "Developer",
+        "homepage": "http://www.nitsan.in/"
+    }
+  ],
+  "support": {
+    "issues": "https://www.nitsan.in/"
+  },
+  "license": "MIT",
+  "require": {
+    "typo3/cms-core": ">=8.0.0",
+    "nitsan/ns-basetheme": ">=1.0.0"
+  },
+  "replace": {
+      "nitsan/ns-theme-child": "self.version"
+  },
+  "extra": {
+      "typo3/cms": {
+          "extension-key": "ns_theme_comingsoon"
+      }
+  }
+}
