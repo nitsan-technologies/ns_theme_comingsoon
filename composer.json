@@ -1,5 +1,5 @@
 {
-  "name": "nitsan/ns-theme-child",
+  "name": "nitsan/ns_theme_comingsoon",
   "type": "typo3-cms-extension",
   "description": "Maintenance mode TYPO3 template is carefully designed with attention to the details. Your visitors will love it. LIVE Demo: https://demo.t3terminal.com/?theme=t3t-coming-soon You can download PRO version with more-features & free-support at https://t3terminal.com/t3-coming-soon-maintenance-mode-typo3-template/",
   "keywords": [
@@ -24,10 +24,11 @@
   "license": "MIT",
   "require": {
     "typo3/cms-core": ">=8.0.0",
-    "nitsan/ns-basetheme": ">=1.0.0"
+    "nitsan/ns-basetheme": ">=1.0.0",
+    "gridelementsteam/gridelements": ">=8.0.0"
   },
   "replace": {
-      "nitsan/ns-theme-child": "self.version"
+      "nitsan/ns-theme-comingsoon": "self.version"
   },
   "extra": {
       "typo3/cms": {
