@@ -18,8 +18,8 @@ $EM_CONF['ns_theme_comingsoon'] = array(
 	'version' => '2.0.2',
 	'constraints' => array(
 		'depends' => array(
-            'typo3' => '8.0.0-10.9.99',
-			'ns_basetheme' => '1.0.0-10.9.99',
+            'typo3' => '8.0.0-11.9.99',
+			'ns_basetheme' => '1.0.0-11.9.99',
 			'gridelements' => '8.0.0-10.9.99',
 		),
 		'conflicts' => array(
