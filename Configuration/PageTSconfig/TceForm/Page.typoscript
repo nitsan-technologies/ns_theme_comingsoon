@@ -15,12 +15,13 @@ TCEMAIN {
 
 TCEFORM.pages {
     layout {
-
         config {
             default = 0
         }
-        altLabels.0 = LLL:EXT:ns_theme_comingsoon/Resources/Private/Language/locallang.xlf:MainPage
-        altLabels.1 = LLL:EXT:ns_theme_comingsoon/Resources/Private/Language/locallang.xlf:Subpage
+        altLabels {
+            0 = LLL:EXT:ns_theme_comingsoon/Resources/Private/Language/locallang.xlf:MainPage
+            1 = LLL:EXT:ns_theme_comingsoon/Resources/Private/Language/locallang.xlf:Subpage
+        }    
         removeItems = 2,3
     }
 }

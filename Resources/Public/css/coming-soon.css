@@ -95,7 +95,7 @@ video {
 .masthead .masthead-content .input-group-newsletter input {
   height: auto;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .masthead .masthead-content .input-group-newsletter button {
@@ -141,6 +141,7 @@ video {
   margin-top: 2rem;
   width: 100%;
   text-align: center;
+  margin-bottom: 2rem !important;
 }
 
 .social-icons ul > li {

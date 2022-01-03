@@ -1,10 +1,14 @@
-# Include the BackendLayouts
-#<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ns_theme_comingsoon/Configuration/PageTSconfig/BackendLayouts" extensions="typoscript">
-
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ns_theme_comingsoon/Configuration/PageTSconfig/TceForm" extensions="typoscript">
+// Include the TceForm
+@import "EXT:ns_theme_comingsoon/Configuration/PageTSconfig/TceForm"
 
 // Include the BackendLayouts
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ns_theme_comingsoon/Configuration/PageTSconfig/BackendLayouts" extensions="typoscript">
-// Include the GridElements
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ns_theme_comingsoon/Configuration/PageTSconfig/GridElements" extensions="typoscript">
+@import "EXT:ns_theme_comingsoon/Configuration/PageTSconfig/BackendLayouts"
 
+TCEFORM.pages {
+    backend_layout {
+        config {
+            default =
+        }
+        removeItems = -1
+    }
+}

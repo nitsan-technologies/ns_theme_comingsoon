@@ -9,11 +9,9 @@
             <trans-unit id="title">
                 <source>Title</source>
             </trans-unit>
-
             <trans-unit id="MainPage">
                 <source>Main Page</source>
             </trans-unit>
-
             <trans-unit id="Subpage">
                 <source>Sub Page</source>
             </trans-unit>

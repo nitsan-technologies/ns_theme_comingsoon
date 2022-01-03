@@ -12,6 +12,12 @@
             <trans-unit id="Video.VideoLink">
                 <source>Video Link</source>
             </trans-unit>
+            <trans-unit id="page.select">
+                <source>Page Select</source>
+            </trans-unit>
+            <trans-unit id="general.fields">
+                <source>Fields</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

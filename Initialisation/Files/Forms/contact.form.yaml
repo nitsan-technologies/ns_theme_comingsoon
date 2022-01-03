@@ -1,4 +1,3 @@
-
 renderingOptions:
   submitButtonLabel: 'Notify Me!'
 type: Form
@@ -9,30 +8,28 @@ finishers:
   -
     options:
       subject: 'Thank you for inquiry | Coming-soon | T3Terminal'
-      recipientAddress: '{text-1}'
-      recipientName: 'User - {text-1}'
       senderAddress: contact@t3terminal.com
       senderName: 'Comming-soon | T3 Terminal'
-      replyToAddress: contact@t3terminal.com
-      carbonCopyAddress: ''
-      blindCarbonCopyAddress: ''
-      format: html
       attachUploads: true
+      recipients:
+        '{text-1}': 'User - {text-1}'
+      replyToRecipients:
+        contact@t3terminal.com: ''
+      addHtmlPart: true
     identifier: EmailToSender
   -
     options:
       subject: 'Contact Form Submit | Coming-soon | T3Terminal'
-      recipientAddress: contact@t3terminal.com
-      recipientName: T3Terminal
       senderAddress: '{text-1}'
       senderName: 'User - {text-1}'
-      replyToAddress: '{text-1}'
-      carbonCopyAddress: ''
-      blindCarbonCopyAddress: ''
-      format: html
       attachUploads: true
       translation:
-        language: ''
+        language: default
+      recipients:
+        contact@t3terminal.com: T3Terminal
+      replyToRecipients:
+        '{text-1}': ''
+      addHtmlPart: true
     identifier: EmailToReceiver
   -
     options:

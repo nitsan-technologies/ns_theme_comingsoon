@@ -1,7 +1,7 @@
 {
   "name": "nitsan/ns_theme_comingsoon",
   "type": "typo3-cms-extension",
-  "description": "Maintenance mode TYPO3 template is carefully designed with attention to the details. Your visitors will love it. LIVE Demo: https://demo.t3terminal.com/?theme=t3t-coming-soon You can download PRO version with more-features & free-support at https://t3terminal.com/t3-coming-soon-maintenance-mode-typo3-template/",
+  "description": "T3 Coming Soon: Maintenance Mode TYPO3 Template is carefully designed with attention to the details. This TYPO3 maintenance template is designed to catch attention and inform visitors what you and your TYPO3 website are up to.",
   "keywords": [
     "TYPO3 CMS",
     "bootstrap",
@@ -23,9 +23,8 @@
   },
   "license": "MIT",
   "require": {
-    "typo3/cms-core": ">=9.0.0",
-    "nitsan/ns-basetheme": ">=1.0.0",
-    "gridelementsteam/gridelements": "^9 || ^10"
+    "typo3/cms-core": ">=10.0.0",
+    "nitsan/ns-basetheme": ">=10.0.0"
   },
   "replace": {
       "nitsan/ns-theme-comingsoon": "self.version"
