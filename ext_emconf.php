@@ -2,12 +2,12 @@
 
 // Provide detailed information and depenencies of EXT:ns_theme_comingsoon
 $EM_CONF['ns_theme_comingsoon'] = array(
-	'title' => '[NITSAN] T3 Coming Soon | Maintenance Mode TYPO3 Template',
-	'description' => 'Maintenance Mode TYPO3 Template is carefully designed with attention to the details. This TYPO3 maintenance template is designed to catch attention and inform visitors what you and your TYPO3 website are up to. Live-Demo: https://demo.t3terminal.com/?theme=t3t-coming-soon Pro Support: https://t3terminal.com/t3-coming-soon-typo3-template',
+	'title' => 'T3 Coming Soon – TYPO3 Maintenance Template',
+	'description' => 'A minimal and effective TYPO3 template for maintenance or coming soon pages. Inform your visitors while your TYPO3 site is under construction or updates.',
 	'category' => 'templates',
-	'author' => 'Team NITSAN',
-	'author_email' => 'info@nitsan.in',
-	'author_company' => 'NITSAN Technologies Pvt Ltd',
+	'author' => 'Team T3Planet',
+	'author_email' => 'info@t3planet.de',
+	'author_company' => 'T3Planet',
 	'state' => 'stable',
 	'version' => '11.1.2',
 	'constraints' => array(
