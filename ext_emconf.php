@@ -9,10 +9,11 @@ $EM_CONF['ns_theme_comingsoon'] = array(
 	'author_email' => 'info@t3planet.de',
 	'author_company' => 'T3Planet',
 	'state' => 'stable',
-	'version' => '11.1.3',
+	'version' => '11.1.4',
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '10.0.0-11.5.99',
+			'ns_license' => '14.5.4-14.9.99',
 			'ns_basetheme' => '10.0.0-11.5.99',
 		),
 		'conflicts' => array(

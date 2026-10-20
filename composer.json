@@ -12,10 +12,10 @@
   "homepage": "https://www.nitsan.in/",
   "authors": [
     {
-        "name": "NITSAN Technologies Pvt Ltd",
-        "email": "info@nitsan.in",
-        "role": "Developer",
-        "homepage": "http://www.nitsan.in/"
+      "name": "NITSAN Technologies Pvt Ltd",
+      "email": "info@nitsan.in",
+      "role": "Developer",
+      "homepage": "http://www.nitsan.in/"
     }
   ],
   "support": {
@@ -23,15 +23,16 @@
   },
   "license": "MIT",
   "require": {
-     "typo3/cms-core": "^10.0  || ^11.0 ",
+    "typo3/cms-core": "^10.0  || ^11.0 ",
+    "nitsan/ns-license": "^14.5.4",
     "nitsan/ns-basetheme": ">=10.0.0"
   },
   "replace": {
-      "typo3-ter/ns-theme-comingsoon": "self.version"
+    "typo3-ter/ns-theme-comingsoon": "self.version"
   },
   "extra": {
-      "typo3/cms": {
-          "extension-key": "ns_theme_comingsoon"
-      }
+    "typo3/cms": {
+      "extension-key": "ns_theme_comingsoon"
+    }
   }
 }
